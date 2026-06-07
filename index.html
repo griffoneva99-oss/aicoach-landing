@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ai coach — Vos souvenirs ne se feront pas tout seuls</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <nav class="nav">
+    <a href="#" class="nav-logo">
+      <svg width="32" height="20" viewBox="0 0 80 50" fill="none">
+        <path d="M4 42 C20 42 28 12 50 12 C72 12 76 8 76 8" stroke="#C1603A" stroke-width="5" stroke-linecap="round"/>
+        <path d="M4 32 C18 32 24 18 44 18 C64 18 72 14 72 14" stroke="#C1603A" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+        <path d="M4 22 C16 22 20 26 38 26 C56 26 64 20 68 20" stroke="#C1603A" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+      </svg>
+      <span class="nav-brand">ai coach</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+      <li><a href="#temoignages">Témoignages</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+    <a href="#telecharger" class="btn btn-primary nav-cta">Télécharger gratuitement</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#fonctionnalites">Fonctionnalités</a>
+    <a href="#temoignages">Témoignages</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#telecharger" class="btn btn-primary">Télécharger gratuitement</a>
+  </div>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="hero-bg">
+    <div class="hero-shape hero-shape-1"></div>
+    <div class="hero-shape hero-shape-2"></div>
+    <div class="hero-curves">
+      <svg viewBox="0 0 1440 600" preserveAspectRatio="none" fill="none">
+        <path d="M0 500 C200 500 300 200 500 200 C700 200 800 350 1000 350 C1200 350 1300 250 1440 250" stroke="#C1603A" stroke-width="2" opacity="0.15"/>
+        <path d="M0 400 C200 400 350 150 600 150 C850 150 950 300 1200 300 C1350 300 1400 220 1440 220" stroke="#C1603A" stroke-width="1.5" opacity="0.1"/>
+        <path d="M0 300 C250 300 400 100 700 100 C1000 100 1100 250 1440 180" stroke="#1A3A2A" stroke-width="1" opacity="0.08"/>
+      </svg>
+    </div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge reveal">Le coaching sportif familial français</div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        Vos souvenirs<br>ne se feront pas<br><em>tout seuls.</em>
+      </h1>
+      <p class="hero-subtitle reveal reveal-delay-2">
+        Le premier assistant sportif qui s'adapte à chaque membre de votre famille, de 5 à 75 ans. Il prépare tout. Vous, vous vivez.
+      </p>
+      <div class="hero-trust reveal reveal-delay-3">
+        <span class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1L8.854 5.146L13.5 5.854L10.25 9.024L11.045 13.646L7 11.5L2.955 13.646L3.75 9.024L0.5 5.854L5.146 5.146L7 1Z" fill="#C1603A"/></svg>
+          RGPD natif
+        </span>
+        <span class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1L8.854 5.146L13.5 5.854L10.25 9.024L11.045 13.646L7 11.5L2.955 13.646L3.75 9.024L0.5 5.854L5.146 5.146L7 1Z" fill="#C1603A"/></svg>
+          Hébergé en France
+        </span>
+        <span class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1L8.854 5.146L13.5 5.854L10.25 9.024L11.045 13.646L7 11.5L2.955 13.646L3.75 9.024L0.5 5.854L5.146 5.146L7 1Z" fill="#C1603A"/></svg>
+          ISO 27001
+        </span>
+      </div>
+      <div class="hero-cta reveal reveal-delay-4">
+        <a href="#" class="btn btn-primary btn-large">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1C5.03 1 1 5.03 1 10C1 14.97 5.03 19 10 19C14.97 19 19 14.97 19 10C19 5.03 14.97 1 10 1ZM8.5 14.5L4.5 10.5L5.91 9.09L8.5 11.67L14.09 6.09L15.5 7.5L8.5 14.5Z"/></svg>
+          App Store
+        </a>
+        <a href="#" class="btn btn-secondary btn-large">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M3.18 19C2.53 19 2 18.47 2 17.82V2.18C2 1.53 2.53 1 3.18 1C3.47 1 3.75 1.11 3.97 1.3L17.82 8.12C18.28 8.37 18.5 8.9 18.5 9.5C18.5 10.1 18.28 10.63 17.82 10.88L3.97 17.7C3.75 17.89 3.47 18 3.18 18V19Z"/></svg>
+          Google Play
+        </a>
+      </div>
+      <p class="hero-note reveal reveal-delay-4">Gratuit — 120 000 familles déjà actives</p>
+    </div>
+    <div class="hero-visual reveal reveal-delay-2">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="Famille sportive" class="phone-img">
+          <div class="phone-overlay">
+            <div class="phone-card">
+              <span class="phone-card-label">Défi du matin</span>
+              <span class="phone-card-value">5,2 km ensemble</span>
+            </div>
+          </div>
+        </div>
+        <div class="phone-notif">
+          <div class="notif-icon">
+            <svg width="16" height="16" viewBox="0 0 80 50" fill="none"><path d="M4 42 C20 42 28 12 50 12 C72 12 76 8 76 8" stroke="#C1603A" stroke-width="6" stroke-linecap="round"/><path d="M4 28 C18 28 24 18 44 18 C64 18 72 14 72 14" stroke="#C1603A" stroke-width="4" stroke-linecap="round" opacity="0.6"/></svg>
+          </div>
+          <div class="notif-text">
+            <strong>Papa et Lucie</strong> viennent de faire 3 km ensemble ce matin 🏃
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Découvrir</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="120000">0</span>
+        <span class="stat-label">familles actives</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-suffix">à 75 ans</span>
+        <span class="stat-label">coaching adaptatif</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-number" data-target="2000">0</span>
+        <span class="stat-label">exercices disponibles</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-number" data-target="15">0</span>
+        <span class="stat-suffix"> sports</span>
+        <span class="stat-label">couverts dès le lancement</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="fonctionnalites">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Fonctionnalités</span>
+      <h2>Tout ce dont votre famille a besoin.<br>Sans que vous ayez à organiser quoi que ce soit.</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card feature-large reveal">
+        <div class="feature-img-wrap">
+          <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80" alt="Famille en randonnée" loading="lazy">
+        </div>
+        <div class="feature-content">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Coach multi-âges</h3>
+          <p>Il sait que Martine marche à 4 km/h et que Hugo court à 9. Et il trouve quand même quelque chose à faire ensemble.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>Planificateur intelligent</h3>
+        <p>Météo, agendas familiaux, niveaux de chacun. AI Coach synchronise tout et propose. Vous décidez.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Expert santé</h3>
+        <p>Conseils nutritionnels, prévention blessures, échauffements adaptés. Certifié INSEP et base CIQUAL.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3>Gamification familiale</h3>
+        <p>Défis collectifs, récompenses partagées, compétitions amicales. Même l'ado finit par jouer le jeu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="moment">
+  <div class="moment-img">
+    <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7e0827?w=1200&q=80" alt="Famille sportive ensemble" loading="lazy">
+    <div class="moment-overlay"></div>
+  </div>
+  <div class="moment-content reveal">
+    <blockquote>
+      "Il y a des matins qui restent toute la vie."
+    </blockquote>
+    <p>AI Coach prépare ce matin-là. Tout seul, en silence, la veille. Pour que vous puissiez juste être là, avec eux.</p>
+    <a href="#telecharger" class="btn btn-white">Commencer gratuitement</a>
+  </div>
+</section>
+
+<section class="screenshots" id="application">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">L'application</span>
+      <h2>Simple. Intuitive.<br>Faite pour toute la famille.</h2>
+    </div>
+    <div class="screenshots-grid">
+      <div class="screenshot-item reveal">
+        <div class="screenshot-phone">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300&q=80" alt="Interface AI Coach" loading="lazy">
+        </div>
+        <p>Tableau de bord familial</p>
+      </div>
+      <div class="screenshot-item reveal reveal-delay-1">
+        <div class="screenshot-phone screenshot-phone-center">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300&q=80" alt="Défi familial" loading="lazy">
+        </div>
+        <p>Défis intergénérationnels</p>
+      </div>
+      <div class="screenshot-item reveal reveal-delay-2">
+        <div class="screenshot-phone">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&q=80" alt="Carnet de souvenir" loading="lazy">
+        </div>
+        <p>Carnet de Souvenir</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="temoignages">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Témoignages</span>
+      <h2>Ce que disent les familles.</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Ce que je voulais, c'était pas une appli de plus à gérer. C'est quelque chose qui gère à ma place pour que je puisse juste être là, avec eux."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&q=80" alt="Sophie" loading="lazy">
+          <div>
+            <strong>Sophie, 38 ans</strong>
+            <span>Directrice marketing, Lyon</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Je voulais faire du sport avec mes petits-enfants, mais j'avais peur de pas tenir le rythme. AI Coach a tout adapté sans que j'aie à demander."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=50&h=50&fit=crop&q=80" alt="Martine" loading="lazy">
+          <div>
+            <strong>Martine, 63 ans</strong>
+            <span>Retraitée, Grenoble</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Mon fils de 14 ans trouvait que le sport en famille c'était nul. Depuis les défis AI Coach, c'est lui qui nous réveille le samedi matin."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&q=80" alt="Thomas" loading="lazy">
+          <div>
+            <strong>Thomas, 44 ans</strong>
+            <span>Ingénieur, Bordeaux</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"On voulait faire plus de sport ensemble, mais entre les niveaux différents et nos emplois du temps, c'était impossible. AI Coach a tout résolu."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=50&h=50&fit=crop&q=80" alt="Marie" loading="lazy">
+          <div>
+            <strong>Marie, 35 ans</strong>
+            <span>Infirmière, Toulouse</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"L'application s'adapte vraiment à chacun de nous. Mon père de 70 ans et mes enfants de 8 et 12 ans font la même sortie, chacun à son niveau."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1542190891-2093d38760f2?w=50&h=50&fit=crop&q=80" alt="Julie" loading="lazy">
+          <div>
+            <strong>Julie, 40 ans</strong>
+            <span>Architecte, Paris</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Le Carnet de Souvenir généré après chaque sortie, c'est magique. Ma fille l'a imprimé et accroché dans sa chambre."</p>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=50&h=50&fit=crop&q=80" alt="Laurent" loading="lazy">
+          <div>
+            <strong>Laurent, 47 ans</strong>
+            <span>Enseignant, Marseille</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="tarifs">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Tarifs</span>
+      <h2>Commencez gratuitement.<br>Évoluez à votre rythme.</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-header">
+          <h3>Gratuit</h3>
+          <div class="pricing-price">0 €<span>/mois</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li>1 sport disponible</li>
+          <li>2 profils utilisateurs</li>
+          <li>Planificateur basique</li>
+          <li>Accès communauté</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Télécharger</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal reveal-delay-1">
+        <div class="pricing-badge">Le plus populaire</div>
+        <div class="pricing-header">
+          <h3>Family Active</h3>
+          <div class="pricing-price">14,90 €<span>/mois</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li>Sports illimités</li>
+          <li>6 profils famille</li>
+          <li>Coaching personnalisé</li>
+          <li>Planificateur intelligent</li>
+          <li>Défis familiaux</li>
+          <li>Carnet de Souvenir</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Essayer 3 mois gratuits</a>
+      </div>
+      <div class="pricing-card reveal reveal-delay-2">
+        <div class="pricing-header">
+          <h3>Family Champion</h3>
+          <div class="pricing-price">24,90 €<span>/mois</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li>Tout Family Active</li>
+          <li>Coaching personnalisé premium</li>
+          <li>Matériel connecté inclus</li>
+          <li>Consultations spécialisées</li>
+          <li>Support prioritaire</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Choisir Champion</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" id="telecharger">
+  <div class="cta-bg">
+    <img src="https://images.unsplash.com/photo-1502224562085-639556652f33?w=1400&q=80" alt="Famille sportive" loading="lazy">
+    <div class="cta-overlay"></div>
+  </div>
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2>Rejoignez 120 000 familles actives.<br>C'est gratuit.</h2>
+      <p>AI Coach prépare tout. Vous, vous vivez.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-white btn-large">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1C5.03 1 1 5.03 1 10C1 14.97 5.03 19 10 19C14.97 19 19 14.97 19 10C19 5.03 14.97 1 10 1ZM8.5 14.5L4.5 10.5L5.91 9.09L8.5 11.67L14.09 6.09L15.5 7.5L8.5 14.5Z"/></svg>
+          App Store
+        </a>
+        <a href="#" class="btn btn-outline-white btn-large">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M3.18 19C2.53 19 2 18.47 2 17.82V2.18C2 1.53 2.53 1 3.18 1C3.47 1 3.75 1.11 3.97 1.3L17.82 8.12C18.28 8.37 18.5 8.9 18.5 9.5C18.5 10.1 18.28 10.63 17.82 10.88L3.97 17.7C3.75 17.89 3.47 18 3.18 18V19Z"/></svg>
+          Google Play
+        </a>
+      </div>
+      <div class="cta-trust">
+        <span>RGPD natif</span>
+        <span>Hébergé en France</span>
+        <span>ISO 27001</span>
+        <span>Données enfants protégées</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <svg width="28" height="18" viewBox="0 0 80 50" fill="none">
+            <path d="M4 42 C20 42 28 12 50 12 C72 12 76 8 76 8" stroke="#C1603A" stroke-width="5" stroke-linecap="round"/>
+            <path d="M4 32 C18 32 24 18 44 18 C64 18 72 14 72 14" stroke="#C1603A" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+            <path d="M4 22 C16 22 20 26 38 26 C56 26 64 20 68 20" stroke="#C1603A" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+          </svg>
+          <span class="nav-brand">ai coach</span>
+        </a>
+        <p>Le coaching sportif familial français. De 5 à 75 ans.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Produit</h4>
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="#temoignages">Témoignages</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <div class="footer-col">
+          <h4>Entreprise</h4>
+          <a href="#">À propos</a>
+          <a href="#">Sport Family Connect</a>
+          <a href="#">Contact</a>
+          <a href="#">Presse</a>
+        </div>
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <a href="#">Mentions légales</a>
+          <a href="#">Confidentialité</a>
+          <a href="#">RGPD</a>
+          <a href="#">CGU</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sport Family Connect — Annecy, France</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">In</a>
+        <a href="#" aria-label="TikTok">Tk</a>
+        <a href="#" aria-label="YouTube">Yt</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="animations.js"></script>
+</body>
+</html>
