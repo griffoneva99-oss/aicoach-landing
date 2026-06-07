@@ -1028,3 +1028,16 @@ img { max-width: 100%; display: block; }
   height: 100%;
   object-fit: cover;
 }
+
+/* LOGO TAILLE CORRIGÉE */
+.logo-img {
+  height: 40px !important;
+  width: auto !important;
+  max-width: 120px !important;
+  object-fit: contain;
+}
+.logo-img-footer {
+  height: 32px !important;
+  max-width: 100px !important;
+  filter: brightness(10);
+}
